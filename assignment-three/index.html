@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BootStrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Style File -->
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Legal Solutions</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-md">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo03"
+              aria-controls="navbarTogglerDemo03"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img src="./assets/brand-logo.png" alt="" />
+            </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cases ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us ></a>
+                </li>
+              </ul>
+              <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Show a second modal and hide this one with the button below.
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Hide this modal and show the first with the button below.
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- Hero Section Start -->
+      <section class="container-md hero__partent">
+        <div
+          class="text-center d-flex flex-column justify-content-center align-items-center text-white hero__container"
+        >
+          <h2 class="fs-1 fw-bold">We Provide Effective Legal Solutions</h2>
+          <p class="p-2 p-lg-0">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority <br />
+            have suffered alteration in some form, by injected humour.
+          </p>
+          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-4">
+            <input
+              class="py-3 rounded-2 px-4"
+              type="text"
+              placeholder="Search your services"
+            />
+            <button
+              class="btn-secondary fs-4 py-2 rounded-2 px-4 text-white fw-bold"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-center my-5 card__container">
+        <h2 class="fs-1">The Legal Practice Area</h2>
+        <p class="mb-5">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have <br />
+          suffered alteration in some form, by injected humour.
+        </p>
+        <div class="row container-md mx-auto gap-5">
+          <div class="col-12 col-lg-3 mx-auto py-5 shadow-lg rounded-3">
+            <img src="./assets/law.png" alt="" />
+            <h3>Business Law</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <a href=""><img src="./assets/icon.png" alt="" /></a>
+          </div>
+          <div class="col-12 col-lg-3 mx-auto py-5 shadow-lg rounded-3">
+            <img src="./assets/law.png" alt="" />
+            <h3>Business Law</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <a href=""><img src="./assets/icon.png" alt="" /></a>
+          </div>
+          <div class="col-12 col-lg-3 mx-auto py-5 shadow-lg rounded-3">
+            <img src="./assets/law.png" alt="" />
+            <h3>Business Law</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <a href=""><img src="./assets/icon.png" alt="" /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-center my-5">
+        <div>
+          <h2 class="fs-1">What Our Client Say</h2>
+          <p class="mb-5">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have <br />
+            suffered alteration in some form, by injected humour.
+          </p>
+        </div>
+        <div class="container-md slider__container">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/sliderOne.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Awlad Hossain</h5>
+                  <p>UIX Designer</p>
+                  <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old. Richard
+                    McClintock, a Latin professor at Hampden-Sydney College in
+                    Virginia, looked up one of the more obscure Latin words,
+                    consectetur.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/sliderTwo.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Awlad Hossain</h5>
+                  <p>UIX Designer</p>
+                  <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old. Richard
+                    McClintock, a Latin professor at Hampden-Sydney College in
+                    Virginia, looked up one of the more obscure Latin words,
+                    consectetur.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/sliderThree.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Awlad Hossain</h5>
+                  <p>UIX Designer</p>
+                  <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old. Richard
+                    McClintock, a Latin professor at Hampden-Sydney College in
+                    Virginia, looked up one of the more obscure Latin words,
+                    consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-center my-5 container-md">
+        <div>
+          <h3>Frequently Asked Any Questions</h3>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div class="d-lg-flex justify-content-center align-items-center gap-5">
+          <div class="w-100 w-lg-50">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-headingOne"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It
+                    is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 mt-lg-0 w-lg-100">
+            <img class="img-fluid" src="./assets/qustion.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="text-center my-5">
+        <div class="my-5">
+          <h3>Contact With Us</h3>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div class="d-lg-flex justify-content-around align-items-center gap-lg-5 p-5 p-lg-0">
+          <div class="row gap-5">
+            <div class="col">
+              <div class="py-3 border px-5">
+                <img src="./assets/location.png" alt="" />
+                <h4>Address</h4>
+                <p>
+                  A108 Adam Street, <br />
+                  New York, NY 535022
+                </p>
+              </div>
+              <div class="py-3 border px-5">
+                <img src="./assets/phone.png" alt="" />
+                <h4>Address</h4>
+                <p>
+                  A108 Adam Street, <br />
+                  New York, NY 535022
+                </p>
+              </div>
+            </div>
+            <div class="col mt-2">
+              <div class="py-3 border px-5">
+                <img src="./assets/envelope.png" alt="" />
+                <h4>Address</h4>
+                <p>
+                  A108 Adam Street, <br />
+                  New York, NY 535022
+                </p>
+              </div>
+              <div class="py-3 border px-5">
+                <img src="./assets/clock.png" alt="" />
+                <h4>Address</h4>
+                <p>
+                  A108 Adam Street, <br />
+                  New York, NY 535022
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-column gap-3 mt-5 mt-md-0">
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Submit" />
+          </div>
+        </div>
+      </section>
+
+      <footer class="row container-md text-center my-5 mx-auto">
+        <div class="col-12 col-lg-3">
+          <img src="./assets/brand-logo.png" alt="" />
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div class="col-12 col-lg-3">
+          <h3>Useful Link</h3>
+          <div class="list-unstyled">
+            <li><a class="text-decoration-none" href="#">Home</a></li>
+            <li><a class="text-decoration-none" href="#">Home</a></li>
+            <li><a class="text-decoration-none" href="#">Home</a></li>
+            <li><a class="text-decoration-none" href="#">Home</a></li>
+            <li><a class="text-decoration-none" href="#">Home</a></li>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3">
+          <h3>Useful Link</h3>
+          <div class="list-unstyled">
+            <li><a class="text-decoration-none" href="#">Home</a></li>
+            <li><a class="text-decoration-none" href="#">Home</a></li>
+            <li><a class="text-decoration-none" href="#">Home</a></li>
+            <li><a class="text-decoration-none" href="#">Home</a></li>
+            <li><a class="text-decoration-none" href="#">Home</a></li>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3">
+            <h3>Subscribe</h3>
+            <p>Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+            <div>
+                <input type="text">
+            </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

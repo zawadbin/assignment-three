@@ -1,0 +1,33 @@
+nav {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero__container {
+    background-image: url('./assets/hero-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.slider__container div div img {
+    height: 600px;
+}
+
+.hero__container h2 {
+    font-family: 'EB Garamond';
+}
+
+.card__container h2 {
+    font-family: 'EB Garamond';
+}
+
+@media only screen and (max-width: 1023px) {
+    .slider__container div div img {
+        height: 300px;
+    }
+
+    .hero__container {
+        height: 400px;
+    }
+}
